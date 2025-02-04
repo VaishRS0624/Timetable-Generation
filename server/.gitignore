@@ -1,0 +1,17 @@
+# Node modules  
+node_modules/  
+
+# Environment variables  
+.env  
+
+# Logs  
+logs/  
+*.log  
+
+# Ignore local database files (if applicable)  
+*.sqlite  
+*.db  
+
+# IDE specific files  
+.vscode/  
+.idea/

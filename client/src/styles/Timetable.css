@@ -1,0 +1,102 @@
+/* General Page Styling */
+.timetable-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Headings */
+  h1 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Dropdown & Button Styling */
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 8px;
+    margin: 10px 10px 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Loading Text */
+  p {
+    font-size: 18px;
+    color: #666;
+    font-weight: bold;
+  }
+  
+  /* Timetable Table */
+  .timetable-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .timetable-table th,
+  .timetable-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .timetable-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .timetable-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .timetable-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive Table */
+  @media screen and (max-width: 768px) {
+    .timetable-table th,
+    .timetable-table td {
+      padding: 8px;
+      font-size: 12px;
+    }
+  
+    select,
+    button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  

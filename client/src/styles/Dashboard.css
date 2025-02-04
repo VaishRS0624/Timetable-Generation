@@ -1,0 +1,63 @@
+/* General Dashboard Styling */
+.dashboard-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Dashboard Title */
+  .dashboard-container h1 {
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons */
+  .dashboard-container button {
+    padding: 12px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .dashboard-container button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .dashboard-container button:active {
+    background-color: #003d80;
+    transform: scale(1);
+  }
+  
+  /* Logout Button */
+  .dashboard-container .logout-btn {
+    background-color: #dc3545;
+  }
+  
+  .dashboard-container .logout-btn:hover {
+    background-color: #b52a38;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 600px) {
+    .dashboard-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .dashboard-container button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
